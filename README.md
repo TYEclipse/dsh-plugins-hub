@@ -7,7 +7,8 @@
 
 | Plugin | Description | Install | Status |
 |--------|-------------|---------|--------|
-| (coming soon) | — | — | — |
+| [dsh-netdoctor](https://github.com/TYEclipse/dsh-netdoctor) | Network diagnostics toolbox: DNS lookup, ICMP ping, TCP port check, TLS cert check, traceroute, public IP — six read-only probes, zero runtime dependencies | See repo | ✅ active |
+| [dsh-webfetch](https://github.com/TYEclipse/dsh-webfetch) | Web page reader: fetch any URL and extract clean Markdown / plain text plus a link inventory — zero runtime dependencies, read-only | See repo | ✅ active |
 
 ## How to add your plugin
 
