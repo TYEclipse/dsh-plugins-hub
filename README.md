@@ -9,7 +9,7 @@
 |--------|-------------|---------|--------|
 | [dsh-netdoctor](https://github.com/TYEclipse/dsh-netdoctor) | Network diagnostics toolbox: DNS lookup, ICMP ping, TCP port check, TLS cert check, traceroute, public IP — six read-only probes, zero runtime dependencies | See repo | ✅ active |
 | [dsh-webfetch](https://github.com/TYEclipse/dsh-webfetch) | Web page reader: fetch any URL and extract clean Markdown / plain text plus a link inventory — zero runtime dependencies, read-only | See repo | ✅ active |
-| [dsh-units](https://github.com/TYEclipse/dsh-units) | Unit conversion toolbox: 12 categories (length, mass, temperature, data sizes decimal-vs-binary, speed, time, volume, pressure, energy, angle, frequency) — zero runtime dependencies, pure math | See repo | ✅ active |
+| [dsh-units](https://github.com/TYEclipse/dsh-units) | Unit conversion toolbox: 12 categories (length, mass, temperature, data sizes decimal-vs-binary, speed, time, volume, pressure, energy, angle, frequency) — zero runtime dependencies, pure math, cordis bundle manifest, install-verified | See repo | ✅ active |
 
 ## How to add your plugin
 
