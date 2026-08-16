@@ -1,0 +1,60 @@
+name: Plugin Submission
+description: Submit a DeepSeek Harness plugin for review and inclusion in the dsh-plugins-hub index
+title: "[Plugin Submission] <plugin name>"
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting your plugin! The pipeline verifies every submission in an isolated profile (security review → install → one real end-to-end tool call) before adding it to the index.
+        Make sure your repository has the `dsh-plugin` topic and declares a `dsh.bundle` manifest (`cordis.patch.yml`).
+  - type: input
+    id: name
+    attributes:
+      label: Plugin name
+      placeholder: e.g. dsh-netdoctor
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      placeholder: https://github.com/<owner>/<repo>
+    validations:
+      required: true
+  - type: input
+    id: release
+    attributes:
+      label: Release / tag
+      description: A pinned tag or commit is preferred so the verified revision is unambiguous.
+      placeholder: v1.1.3
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      placeholder: MIT
+    validations:
+      required: true
+  - type: input
+    id: install
+    attributes:
+      label: Install command
+      placeholder: dsh plugin --profile web add github:<owner>/<repo>#<tag>
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What does it do? Which tools / skills does it provide?
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification boundary
+      description: Anything reviewers should know about scope, platform requirements, or known limitations.
+    validations:
+      required: false
