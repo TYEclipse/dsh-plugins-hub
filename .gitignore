@@ -1,0 +1,5 @@
+# 隐私红线：验证日志与内部脚本禁止提交（2026-08-16 用户指令）
+# 详细验证日志只存本地 ~/projects/dsh-plugins/verify-logs/，绝不入库
+verify-logs/
+trace-check.sh
+*.log
